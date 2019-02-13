@@ -412,6 +412,17 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx511j/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/nubia/nx511j/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
+
+# More shared Vulkan blobs
+PRODUCT_COPY_FILES += \
+    vendor/nubia/nx511j/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib/hw/vulkan.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8916.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/hw/vulkan.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8916.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
+    vendor/nubia/nx511j/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so
     
 
 PRODUCT_PACKAGES += \
